@@ -66,7 +66,6 @@ Webhook Stripe: Endpoint POST /api/stripe/webhook يستقبل الأحداث م
 تشغيل Webhook محلياً
 إذا تريد تجربة Webhook محلياً:
 
-
 stripe listen --forward-to http://127.0.0.1:8000/api/stripe/webhook
 تأكد من تثبيت Stripe CLI على جهازك: Stripe CLI Docs
 
