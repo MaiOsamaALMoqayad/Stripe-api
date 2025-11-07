@@ -10,7 +10,6 @@ class PaymentController extends Controller
     {
         $sessionId = $request->input('session_id');
 
-        // تحقق من الجلسة من Stripe (نفس المكتبة اللي استخدمناها)
         \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
 
         try {

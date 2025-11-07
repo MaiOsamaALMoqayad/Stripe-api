@@ -10,7 +10,6 @@ use App\Models\Payment;
 
 class StripeController extends Controller
 {
-    // إنشاء جلسة الدفع (requires auth token)
     public function createCheckoutSession(Request $request)
     {
         $user = $request->user();
