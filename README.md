@@ -30,7 +30,7 @@ npm run dev
 
 
 cp .env.example .env
-تعديل القيم داخل .env حسب بيئتك
+1. ** تعديل .env حسب بيئتك **
 
 env
 APP_NAME=StripeApp
